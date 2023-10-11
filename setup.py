@@ -39,7 +39,7 @@ setup(
     packages=find_packages(exclude=["tests*"]),
     include_package_data=True,
     python_requires=">=3.6",
-    install_requires=["tutor>=13.0.0,<14.0.0"],
+    install_requires=["tutor"],
     entry_points={"tutor.plugin.v0": ["enterprise = tutorenterprise.plugin"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
